@@ -1,0 +1,62 @@
+{
+  "name": "@aintivirus-ai/sdk-react",
+  "version": "0.1.0",
+  "description": "React hooks and provider for AintiVirus Mixer SDK",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [
+    "react",
+    "web3",
+    "mixer",
+    "hooks"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@aintivirus-ai/sdk-core": "^0.1.0",
+    "@tanstack/react-query": "^5.0.0",
+    "react": ">=18.0.0",
+    "viem": "^2.0.0",
+    "wagmi": "^2.0.0 || ^3.0.0",
+    "ethers": "^6.0.0"
+  },
+  "peerDependenciesMeta": {
+    "wagmi": {
+      "optional": false
+    },
+    "viem": {
+      "optional": false
+    },
+    "@tanstack/react-query": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@aintivirus-ai/sdk-core": "^0.1.0",
+    "@coral-xyz/anchor": "^0.32.1"
+  },
+  "devDependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "ethers": "^6.16.0",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
