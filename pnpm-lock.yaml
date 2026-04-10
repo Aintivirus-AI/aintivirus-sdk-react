@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@aintivirus-ai/sdk-core':
-        specifier: ^0.1.0
-        version: 0.1.0(bufferutil@4.1.0)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)(utf-8-validate@6.0.6)
+        specifier: ^0.1.2
+        version: 0.1.2(bufferutil@4.1.0)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)(utf-8-validate@6.0.6)
       '@coral-xyz/anchor':
         specifier: ^0.32.1
         version: 0.32.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)
@@ -57,8 +57,8 @@ packages:
   '@adraffy/ens-normalize@1.11.1':
     resolution: {integrity: sha512-nhCBV3quEgesuf7c7KYfperqSS14T8bYuvJ8PcLJp6znkZpFc0AuW4qBtr8eKVyPPe/8RSr7sglCWPU5eaxwKQ==}
 
-  '@aintivirus-ai/sdk-core@0.1.0':
-    resolution: {integrity: sha512-OsghQgEVX2FBynLHdG2ibqO35a0KnDe2qCNfvuWqzDSyEb1X1ALP+uanKZFxozWKqcHINOXSKgBQg2tDNfZm0w==}
+  '@aintivirus-ai/sdk-core@0.1.2':
+    resolution: {integrity: sha512-JQM9At1ly0i01JJDzKHcmNyB4cr+uNkL+VLAmUaW0TmWQ4ophGI0ALEZ8dSqcBlRwCUzmXiJbLXoIVwANvCMEw==}
 
   '@aintivirus-ai/snarkjs-to-solana@1.0.5':
     resolution: {integrity: sha512-x9hV3fs407fOxDko9N4TTYspSd9z2CiKvoQsHEpdmLGHc4RJ2qU04Dzs9KVmLU0J0NeCXtJala2/7xu3LCQ0cA==}
@@ -1249,7 +1249,7 @@ snapshots:
 
   '@adraffy/ens-normalize@1.11.1': {}
 
-  '@aintivirus-ai/sdk-core@0.1.0(bufferutil@4.1.0)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)(utf-8-validate@6.0.6)':
+  '@aintivirus-ai/sdk-core@0.1.2(bufferutil@4.1.0)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)(utf-8-validate@6.0.6)':
     dependencies:
       '@aintivirus-ai/snarkjs-to-solana': 1.0.5
       '@coral-xyz/anchor': 0.32.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)

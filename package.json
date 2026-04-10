@@ -24,7 +24,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@aintivirus-ai/sdk-core": "^0.1.0",
+    "@aintivirus-ai/sdk-core": "^0.1.2",
     "@tanstack/react-query": "^5.0.0",
     "react": ">=18.0.0",
     "viem": "^2.0.0",
@@ -43,7 +43,7 @@
     }
   },
   "dependencies": {
-    "@aintivirus-ai/sdk-core": "^0.1.0",
+    "@aintivirus-ai/sdk-core": "^0.1.2",
     "@coral-xyz/anchor": "^0.32.1"
   },
   "devDependencies": {

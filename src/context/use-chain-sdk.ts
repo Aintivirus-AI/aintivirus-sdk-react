@@ -10,7 +10,7 @@ import {
 } from "../wagmi-ethers-adapters";
 import type { MixerContextValue, SelectedChain } from "./types";
 
-import { Keypair, type Connection } from "@solana/web3.js";
+import { type Connection } from "@solana/web3.js";
 import { Wallet as AnchorWallet } from "@coral-xyz/anchor";
 import type { Config } from "wagmi";
 
@@ -42,7 +42,13 @@ export function useChainSDK(
   });
   const connectorQuery = useConnectorClient({
     config,
-    ...(evmChainId != null ? { chainId: evmChainId } : {}),
+    ...(evmChainId != null
+      ? {
+          chainId: evmChainId,
+          /** Wallet may still be on another chain; avoid mismatch error until user switches or sends a tx. */
+          assertChainId: false,
+        }
+      : {}),
   });
   const walletClient = connectorQuery.data;
 
