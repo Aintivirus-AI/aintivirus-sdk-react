@@ -1,6 +1,6 @@
 {
   "name": "@aintivirus-ai/sdk-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React hooks and provider for AintiVirus Mixer SDK",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -23,6 +23,9 @@
     "hooks"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@aintivirus-ai/sdk-core": "^0.1.2",
     "@tanstack/react-query": "^5.0.0",
